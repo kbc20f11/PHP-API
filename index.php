@@ -1,5 +1,7 @@
 <?php
+require_once('config/config.php');
 require_once('common/functions.php');
+require_once('common/database.php');
 require_once('common/routing.php');
 
 // 各種ヘッダーを設定
