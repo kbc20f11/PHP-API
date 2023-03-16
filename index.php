@@ -8,6 +8,12 @@ require_once('common/routing.php');
 // header("Access-Control-Allow-Headers: Content-Disposition, Content-Type, Content-Length, Accept-Encoding, X-Requested-With, Origin, X-Csrftoken, Accept");
 // header("Access-Control-Allow-Methods: GET, POST, PUT, DELETE, CONNECT, OPTIONS, TRACE, PATCH, HEAD");
 
+// 文字コード対策
+// mb_language("uni");
+// mb_internal_encoding("utf-8"); 
+// mb_http_input("auto");
+// mb_http_output("utf-8");
+
 // ルーティング設定を与えてルーティングを実行します。
 path_route(array(
     // ルートディレクトリに来た時の動作の例です
